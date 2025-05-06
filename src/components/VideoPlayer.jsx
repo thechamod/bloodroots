@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedElement from './AnimatedElement';
 
-const VideoPlayer = ({ videoId }) => {
+const VideoPlayer = ({ KgOjCzBfuGA }) => {
   return (
     <AnimatedElement>
       <section id="music" className="py-20 px-4">
@@ -13,9 +13,9 @@ const VideoPlayer = ({ videoId }) => {
           <div className="absolute inset-0 bg-red-900/20 z-0"></div>
           <iframe
             className="absolute inset-0 w-full h-full z-10"
-            src="https://www.youtube.com/embed/KgOjCzBfuGA"
-            title="Bloodroots Music Video" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            src={`https://www.youtube.com/embed/${videoId}`}
+            title="Bloodroots Music Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
           
@@ -44,7 +44,7 @@ const VideoPlayer = ({ videoId }) => {
             Experience the raw passion and unfiltered truth that defines Bloodroots. Our music speaks to the streets and the struggles we've overcome.
           </p>
           <a 
-            href="https://www.youtube.com/@bloodrootz1793/videos" 
+            href="https://youtube.com" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block px-6 py-3 bg-red-800 hover:bg-red-700 text-white font-bold transition-all duration-300 shadow-lg shadow-red-900/30"
