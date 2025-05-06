@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedElement from './AnimatedElement';
 
-const VideoPlayer = ({ KgOjCzBfuGA }) => {
+const VideoPlayer = ({KgOjCzBfuGA}) => {
   return (
     <AnimatedElement>
       <section id="music" className="py-20 px-4">
