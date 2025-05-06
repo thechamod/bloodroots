@@ -178,7 +178,7 @@ const ComingSoon = () => {
                 {/* Hidden audio element */}
                 <audio 
                   ref={audioRef} 
-                  src="#" 
+                  src="https://whyp.it/tracks/embed?id=278320" 
                   className="hidden"
                 ></audio>
                 
