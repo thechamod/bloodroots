@@ -13,7 +13,7 @@ const VideoPlayer = ({KgOjCzBfuGA}) => {
           <div className="absolute inset-0 bg-red-900/20 z-0"></div>
           <iframe
             className="absolute inset-0 w-full h-full z-10"
-            src={`https://www.youtube.com/embed/${videoId}`}
+            src={`https://www.youtube.com/embed/${KgOjCzBfuGA}`}
             title="Bloodroots Music Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -44,7 +44,7 @@ const VideoPlayer = ({KgOjCzBfuGA}) => {
             Experience the raw passion and unfiltered truth that defines Bloodroots. Our music speaks to the streets and the struggles we've overcome.
           </p>
           <a 
-            href="https://youtube.com" 
+            href="https://www.youtube.com/@bloodrootz1793/videos" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block px-6 py-3 bg-red-800 hover:bg-red-700 text-white font-bold transition-all duration-300 shadow-lg shadow-red-900/30"
