@@ -34,7 +34,7 @@ function App() {
         <Navbar />
         <main className="container mx-auto px-4">
           <Hero />
-          <VideoPlayer videoId="dQw4w9WgXcQ" /> {/* Replace with actual video ID */}
+          <VideoPlayer videoId="KgOjCzBfuGA" /> {/* Replace with actual video ID */}
           <ComingSoon />
         </main>
         <Footer />
