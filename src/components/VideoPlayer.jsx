@@ -15,7 +15,7 @@ const VideoPlayer = ({ videoId }) => {
             className="absolute inset-0 w-full h-full z-10"
             src={`https://www.youtube.com/embed/KgOjCzBfuGA?si=gU-oDxFn96W0MzdW`}
             title="Bloodroots Music Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
           
