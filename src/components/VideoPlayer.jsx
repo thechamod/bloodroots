@@ -13,7 +13,7 @@ const VideoPlayer = ({ videoId }) => {
           <div className="absolute inset-0 bg-red-900/20 z-0"></div>
           <iframe
             className="absolute inset-0 w-full h-full z-10"
-            src={`https://www.youtube.com/embed/KgOjCzBfuGA?si=gU-oDxFn96W0MzdW`}
+            src={`https://www.youtube.com/embed/KgOjCzBfuGA`}
             title="Bloodroots Music Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
